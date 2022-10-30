@@ -25,7 +25,7 @@ class _ProductDetailsPageState extends ConsumerState<ProductDetailsPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Product Details"),
+        title: const Text("Product Detail"),
       ),
       body: SingleChildScrollView(child: _productDetails(ref)),
     );
