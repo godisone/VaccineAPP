@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "vaccine_app",
+            "cwd": "vaccine_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "vaccine_app (profile mode)",
+            "cwd": "vaccine_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "vaccine_app (release mode)",
+            "cwd": "vaccine_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "type": "node",
+            "name": "Run Current File",
+            "request": "launch",
+            "program": "${workspaceFolder}/VaccineAppApi/services/products.service.js"
+        }
+    ]
+}
